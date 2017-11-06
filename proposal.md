@@ -1,20 +1,13 @@
-Name: ____________           ID:   ____________
+Name: Lijie Zhang          ID:   47495426
 
 ## Proposed Project
-
-> Replace this paragraph with the description of what your project
-> will do. Tell me what kind of interface it will have, and roughly
-> how it will work. I don't need more than three or four sentences,
-> unless you feel compelled to write more.
+My project is a online blackjeck game. All rules will be almost the same as casino. Bascilly the user pick a table and than against the dealer on each table(website itself).
+If some user is playing with dealer and you want to join, you will be in a queue and can not jion the game until the current game is done. Every user has the choice to keep play or leave the table.
+One table is able to accept 3 user at most. If the table is full, other user can not join.
+My mission will mainly to make it work, rather than to design the appearance of the game (UI). 
 
 ## Outline Structure
 
-> Describe how you'll organize your code. What is the process and
-> supervision structure? If it uses a framework, how does it fit in. I
-> just need to understand the direction you plan to take. Again, three
-> or four sentences are probably enough.
+There is a top-level-supervisor(A), whose child are all supervisor(B) for each table. B's child will be the dealer, user. 
 
 
-
-> replace all the ">" lines with your content, then push this to
-> github and issue a merge request.
