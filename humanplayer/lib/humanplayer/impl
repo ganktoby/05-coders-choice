@@ -1,0 +1,12 @@
+defmodule HuamnPlayer.Impl do
+  @global_name :"BJ_Server"
+  def connect(node_name) do
+    Node.connect node_name
+  end
+
+  def play() do
+    game
+  end
+
+
+end
